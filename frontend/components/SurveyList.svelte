@@ -7,46 +7,6 @@
 
   const dispatch = createEventDispatcher();
 
-  /*
-  async function fetchSurveys() {
-    console.log('fetchSurveys')
-    // TODO: remove
-    // await postSurveys();
-
-    try {
-      const response = await surveys.get();
-      const surveyList = JSON.parse(response).filter(survey => survey.title)
-      if (Array.isArray(surveyList)) return surveyList;
-    } catch (err) {
-      surveyList = [];
-      postSurveys();
-      alert(err.message);
-    }
-    return [];
-  }
-
-  async function postSurveys() {
-    try {
-      console.log('post', surveyList)
-      await surveys.set(JSON.stringify(surveyList, null, 2));
-      surveyList = await fetchSurveys();
-    } catch (err) {
-      alert(err.message);
-    }
-  }
-
-  function createSurvey() {
-    newSurvey = JSON.parse(JSON.stringify(SURVEY_TEMPLATE));
-  }
-
-  function saveNewSurvey({detail}) {
-    console.log('saveNewSurvey', detail)
-    surveyList.push(detail);
-    newSurvey = null;
-
-    postSurveys();
-  }
-  */
 </script>
 
 <form>
