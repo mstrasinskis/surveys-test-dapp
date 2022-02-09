@@ -1,0 +1,9 @@
+**/*.wasm
+.DS_Store
+.vscode/
+
+.dfx/
+target/
+dist/
+node_modules/
+web-assets/
