@@ -1,4 +1,5 @@
-# surveys-test-dapp
+# DRAFT: surveys-test-dapp
+- 🚧 Running survey feature -- under construction
 
 ## Initial Steps
 - source [create-ic-app/template-svelte-ts](https://github.com/MioQuispe/create-ic-app/tree/main/template-svelte-ts)
